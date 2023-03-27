@@ -1,0 +1,42 @@
+.container {
+   margin: 80px auto;
+   width: 50vw;
+}
+
+.time {
+   text-align: center;
+   color: #fff;
+   font-size: 80px;
+}
+
+.buttons {
+   display: flex;
+   justify-content: center;
+      button:first-child{
+         background-color: rgb(255, 13, 69);
+         &:hover {
+            background: rgb(234, 6, 59);
+         }
+      }
+      button:last-child{
+         background: rgb(36, 209, 131);
+         &:hover {
+            background: rgb(10, 169, 97);
+         }
+      }
+      
+}
+
+.button {
+   margin: 20px;
+   border: none;
+   padding: 10px 30px;
+   cursor: pointer;
+   font-size: 18px;
+   color: #fff;
+   text-align: center;
+   line-height: 1.5rem;
+   border-radius: 4px;
+   font-weight: 600;
+   text-transform: uppercase;
+}
